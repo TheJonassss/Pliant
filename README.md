@@ -57,16 +57,17 @@
 [Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgooglefonts.github.io%2Fgooglefonts-project-template%2Fbadges%2FOutlineCorrectnessChecks.json
 [Glyphset]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgooglefonts.github.io%2Fgooglefonts-project-template%2Fbadges%2FGlyphsetChecks.json
 
-Description of your font goes here. We recommend to start with a very short presentation line (the kind you would use on twitter to present your project for example), and then add as much details as necesary :-) Origin of the project, idea of usage, concept of creation… but also number of masters, axes, character sets, etc.
-
-Don't hesitate to create images!
+Pliant is a type family with the character and structure of Swiss typography, making it a universal choice for any design need. It also offers a functional collection that adapts to diverse environments without losing readability in continuous text. Linguistically, it supports languages covered by Latin Extended, Cyrillic, and basic Greek. Pliant contains a total of 1,020 glyphs and is available in Regular, Italic, Extended, and Extended Italic styles.
 
 ![Sample Image](documentation/image1.png)
 ![Sample Image](documentation/image2.png)
+![Sample Image](documentation/image3.jpg)
+![Sample Image](documentation/image4.jpg)
+![Sample Image](documentation/image5.jpg)
 
 ## About
 
-Description of you and/or organisation goes here.
+Non Foundry is a type foundry that originated sometime in 2019 in Monterrey, Mexico.Since then our fundamental philosophy is "aesthetics+functionality". Our typefaces combine these two attributes plus historical knowledge to convey meaning that transcends beyond words.
 
 ## Building
 
