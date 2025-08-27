@@ -21,13 +21,10 @@ FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
 
-LINE_ONE = "ABCDEFGHIJKLMNOPQ"
-LINE_TWO = "RSTUVWXYZ123456789"
-LINE_THREE = "abcdefghijklmnopqrstu"
-LINE_FOUR = "vwxyz,.;:!@#$%^&*(){}[]"
-BIG_TEXT_FONT_SIZE = 160
+BIG_TEXT = "AaBb"
+BIG_TEXT_FONT_SIZE = 730
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
-BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.45
+BIG_TEXT_BOTTOM_MARGIN = MARGIN * 2
 
 GRID_VIEW = False # Toggle this for a grid overlay
 
@@ -96,11 +93,8 @@ def draw_main_text():
     # Adjust this line to center main text manually.
     # TODO: This should be done automatically when drawbot-skia
     # has support for textBox() and FormattedString
-    LEADING = 1.2
-    text(LINE_ONE, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN))
-    text(LINE_TWO, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * LEADING)))
-    text(LINE_THREE, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 2))))
-    text(LINE_FOUR, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - (MARGIN * (LEADING * 3))))
+    #text(BIG_TEXT, ((WIDTH / 2) - MARGIN * 4.75, (HEIGHT / 2) - MARGIN * 2.5))
+    text(BIG_TEXT, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN))
 
 
 # Divider lines
@@ -122,11 +116,9 @@ def draw_auxiliary_text():
     POS_TOP_RIGHT = (WIDTH - MARGIN, HEIGHT - MARGIN * 1.25)
     POS_BOTTOM_LEFT = (MARGIN, MARGIN)
     POS_BOTTOM_RIGHT = (WIDTH - MARGIN * 0.95, MARGIN)
-    #URL_AND_HASH = "github.com/googlefonts/googlefonts-project-template " + "at commit " + MY_HASH
     URL_AND_HASH = MY_URL + "at commit " + MY_HASH
     URL_AND_HASH = URL_AND_HASH.replace("\n", " ")
     # Draw Text
-    #text("Your Font Regular", POS_TOP_LEFT, align="left")
     text(FONT_NAME, POS_TOP_LEFT, align="left")
     text(FONT_VERSION, POS_TOP_RIGHT, align="right")
     text(URL_AND_HASH, POS_BOTTOM_LEFT, align="left")
