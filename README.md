@@ -59,7 +59,8 @@
 
 Pliant is a type family with the character and structure of Swiss typography, making it a universal choice for any design need. It also offers a functional collection that adapts to diverse environments without losing readability in continuous text. Linguistically, it supports languages covered by Latin Extended, Cyrillic, and basic Greek. Pliant contains a total of 1,020 glyphs and is available in Regular, Italic, Extended, and Extended Italic styles.
 
-
+![Sample Image](documentation/image1.png)
+![Sample Image](documentation/image2.png)
 
 ## About
 
