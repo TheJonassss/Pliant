@@ -8,14 +8,13 @@ DisplayStrings = (
 "/alpha/beta/gamma/delta/epsilon/zeta/eta/theta/iota/kappa/lambda/mu/nu/xi/omicron/pi/rho/sigmafinal/sigma/tau/upsilon/phi/chi/psi/omega",
 "/FaceHeathEyes/FaceTongue/GrinningFace/SlightlySmilingFace/SmilingFaceWithSunglasses/StarStruck/WinkFace/soundreccopyright/raisedmcsign/raisedmdsign/raisedmrsign/florin/dram/numeral-greek/lowernumeral-greek/baht @&¶§©®/trademark °/minute/second |¦/dagger/literSign/daggerdbl/estimated/numero/servicemark/at.ss01/ampersand.ss01/bitcoin/cedi ¢/colonsign ¤$/dong/euro/franc/guarani/hryvnia/kip/lari/lira/liraTurkish/manat/naira/peseta/peso/ruble/rupee/rupeeIndian/sheqel £/tenge/tugrik/won ¥/YturnedSansSerif +/minus ×÷=/notequal ></greaterequal/lessequal ±/approxequal ~¬^/infinity/emptyset/integral/Ohm/increment/product/summation/radical/partialdiff µ%/perthousand/upArrow/northEastArrow/rightArrow/southEastArrow/downArrow/southWestArrow/leftArrow/northWestArrow/leftRightArrow/upDownArrow/blackCircle/whiteCircle/dottedCircle/whiteBullet/blackDiamond/whiteDiamond/lozenge/blackSquare/whiteSquare/blackSmallSquare/whiteSmallSquare/upBlackTriangle/rightBlackTriangle/downBlackTriangle/leftBlackTriangle/upWhiteTriangle/rightWhiteTriangle/downWhiteTriangle/leftWhiteTriangle/upBlackSmallTriangle/rightBlackSmallTriangle/downBlackSmallTriangle/leftBlackSmallTriangle/upWhiteSmallTriangle/rightWhiteSmallTriangle/downWhiteSmallTriangle/leftWhiteSmallTriangle",
 "Greet/space Sacred/space Cow\012Luna/space Naive/space Parade\012Everybody?\012Afar/space Upon/space Pawn\012Awarded/space was\012GRAVSIGUR\012Directorate\012governor\012event",
-"/nbspace",
-"/Lbelt/lbelt L",
 "/Iota-latin J/iota-latin/jdotless",
 "/Tbar Y/Lambdastroke",
 "+/minus ×÷=/notequal ></greaterequal/lessequal ±/approxequal ~¬^",
 "/greaterequal",
 "+>/greaterequal",
-"></greaterequal/lessequal"
+"></greaterequal/lessequal",
+"¬"
 );
 classes = (
 {
@@ -109132,7 +109131,7 @@ unicode = 007E;
 },
 {
 glyphname = logicalnot;
-lastChange = "2026-02-13 15:15:31 +0000";
+lastChange = "2026-02-13 16:42:34 +0000";
 layers = (
 {
 hints = (
@@ -109185,16 +109184,16 @@ paths = (
 {
 closed = 1;
 nodes = (
-"492 381 LINE",
+"472 381 LINE",
 "40 381 LINE",
 "40 334 LINE",
-"434 334 LINE",
-"434 236 LINE",
-"492 236 LINE"
+"414 334 LINE",
+"414 236 LINE",
+"472 236 LINE"
 );
 }
 );
-width = 552;
+width = 532;
 },
 {
 layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
