@@ -10,9 +10,9 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ,
 "Greet/space Sacred/space Cow\012Luna/space Naive/space Parade\012Everybody?\012Afar/space Upon/space Pawn\012Awarded/space was\012GRAVSIGUR\012Directorate\012governor\012event",
 "+/minus ×÷=/notequal ></greaterequal/lessequal ±/approxequal ~¬^",
 "></greaterequal/lessequal ¬",
-"M/gravecomb",
 "OAM/Macute/macute",
-"K/Khook Y/Yhook/khook y/yhook N/Nlefthook n/elhook-cy"
+"K/Khook Y/Yhook/khook y/yhook N/Nlefthook n/elhook-cy",
+"/Cstroke"
 );
 classes = (
 {
@@ -2953,7 +2953,7 @@ unicode = A7B3;
 },
 {
 glyphname = Cstroke;
-lastChange = "2026-02-10 21:22:26 +0000";
+lastChange = "2026-02-16 23:40:46 +0000";
 layers = (
 {
 layerId = "FD4D3FDD-DE85-408F-A52A-FF600B1C6101";
@@ -3040,8 +3040,8 @@ nodes = (
 "557 702 CURVE",
 "584 772 LINE",
 "534 772 LINE",
-"512 715 LINE",
-"479 722 OFFCURVE",
+"511 714 LINE",
+"478 721 OFFCURVE",
 "443 726 OFFCURVE",
 "405 726 CURVE SMOOTH",
 "176 726 OFFCURVE",
@@ -13464,7 +13464,7 @@ unicode = 0186;
 },
 {
 glyphname = Oslash;
-lastChange = "2026-02-10 21:25:39 +0000";
+lastChange = "2026-02-16 23:21:05 +0000";
 layers = (
 {
 anchors = (
@@ -13535,7 +13535,7 @@ width = 733;
 anchors = (
 {
 name = Top;
-position = "{388, 726}";
+position = "{318, 726}";
 }
 );
 layerId = m002;
@@ -13665,7 +13665,7 @@ width = 873;
 anchors = (
 {
 name = Top;
-position = "{459, 726}";
+position = "{389, 726}";
 }
 );
 layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
@@ -13693,8 +13693,8 @@ nodes = (
 "250 24 CURVE",
 "218 -64 LINE",
 "394 -64 LINE",
-"413 -12 LINE",
-"428 -13 OFFCURVE",
+"414 -11 LINE",
+"429 -12 OFFCURVE",
 "443 -13 OFFCURVE",
 "458 -13 CURVE SMOOTH"
 );
@@ -13735,7 +13735,7 @@ unicode = 00D8;
 },
 {
 glyphname = Oslashacute;
-lastChange = "2026-02-10 21:29:08 +0000";
+lastChange = "2026-02-16 23:19:59 +0000";
 layers = (
 {
 components = (
@@ -13757,7 +13757,7 @@ name = Oslash;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 260, 206}";
+transform = "{1, 0, 0, 1, 190, 206}";
 }
 );
 layerId = m002;
@@ -13783,7 +13783,7 @@ name = Oslash;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 301, 206}";
+transform = "{1, 0, 0, 1, 231, 206}";
 }
 );
 layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
