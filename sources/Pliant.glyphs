@@ -7,7 +7,8 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ,
 "ae/idotless iou",
 "/alpha/beta/gamma/delta/epsilon/zeta/eta/theta/iota/kappa/lambda/mu/nu/xi/omicron/pi/rho/sigmafinal/sigma/tau/upsilon/phi/chi/psi/omega",
 "/soundreccopyright/raisedmcsign/raisedmdsign/raisedmrsign/florin/dram/numeral-greek/lowernumeral-greek/baht @&¶§©®/trademark °/minute/second |¦/dagger/literSign/daggerdbl/estimated/numero/servicemark/at.ss01/ampersand.ss01/bitcoin/cedi ¢/colonsign ¤$/dong/euro/franc/guarani/hryvnia/kip/lari/lira/liraTurkish/manat/naira/peseta/peso/ruble/rupee/rupeeIndian/sheqel £/tenge/tugrik/won ¥/YturnedSansSerif +/minus ×÷=/notequal ></greaterequal/lessequal ±/approxequal ~¬^/infinity/emptyset/integral/Ohm/increment/product/summation/radical/partialdiff µ%/perthousand/upArrow/northEastArrow/rightArrow/southEastArrow/downArrow/southWestArrow/leftArrow/northWestArrow/leftRightArrow/upDownArrow/blackCircle/whiteCircle/dottedCircle/whiteBullet/blackDiamond/whiteDiamond/lozenge/blackSquare/whiteSquare/blackSmallSquare/whiteSmallSquare/upBlackTriangle/rightBlackTriangle/downBlackTriangle/leftBlackTriangle/upWhiteTriangle/rightWhiteTriangle/downWhiteTriangle/leftWhiteTriangle/upBlackSmallTriangle/rightBlackSmallTriangle/downBlackSmallTriangle/leftBlackSmallTriangle/upWhiteSmallTriangle/rightWhiteSmallTriangle/downWhiteSmallTriangle/leftWhiteSmallTriangle",
-"Greet/space Sacred/space Cow\012Luna/space Naive/space Parade\012Everybody?\012Afar/space Upon/space Pawn\012Awarded/space was\012GRAVSIGUR\012Directorate\012governor\012event"
+"Greet/space Sacred/space Cow\012Luna/space Naive/space Parade\012Everybody?\012Afar/space Upon/space Pawn\012Awarded/space was\012GRAVSIGUR\012Directorate\012governor\012event",
+"/idotbelow_macroncomb/idotbelow_circumflexcomb"
 );
 classes = (
 {
@@ -71,7 +72,8 @@ code = "feature locl;\012feature numr;\012feature dnom;\012feature frac;\012feat
 name = aalt;
 },
 {
-code = "lookup REMOVE_SOFT_DOT {\012    sub i by idotless;\012    sub j by jdotless;\012} REMOVE_SOFT_DOT;\012\012lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaabovecomb commaaboverightcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	lookupflag UseMarkFilteringSet @CombiningTopAccents;\012	sub i' @CombiningTopAccents by idotless;\012	sub j' @CombiningTopAccents by jdotless;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	lookupflag 0;\012	@Markscomb = [tonos];\012	@MarkscombCase = [tonos.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012\012lookup ccmp_Other_3 {\012	lookupflag 0;\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_3;\012\012lookup ccmp_latn_1 {\012	lookupflag 0;\012	sub fi by f i;\012	sub fl by f l;\012	sub Ldot by L periodcentered.loclCAT.case;\012	sub ldot by l periodcentered.loclCAT;\012} ccmp_latn_1;\012\012script latn;\012lookup ccmp_latn_1;\012";
+automatic = 1;
+code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaabovecomb commaaboverightcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	lookupflag UseMarkFilteringSet @CombiningTopAccents;\012	sub i' @CombiningTopAccents by idotless;\012	sub j' @CombiningTopAccents by jdotless;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	lookupflag 0;\012	@Markscomb = [tonos];\012	@MarkscombCase = [tonos.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012\012lookup ccmp_Other_3 {\012	lookupflag 0;\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_3;\012\012lookup ccmp_latn_1 {\012	lookupflag 0;\012	sub fi by f i;\012	sub fl by f l;\012	sub Ldot by L periodcentered.loclCAT.case;\012	sub ldot by l periodcentered.loclCAT;\012} ccmp_latn_1;\012\012script latn;\012lookup ccmp_latn_1;\012";
 name = ccmp;
 },
 {
@@ -29312,6 +29314,120 @@ width = 298;
 leftKerningGroup = idotbelow;
 rightKerningGroup = idotbelow;
 unicode = 1ECB;
+},
+{
+glyphname = idotbelow_circumflexcomb;
+layers = (
+{
+components = (
+{
+name = idotbelow;
+},
+{
+name = circumflexcomb;
+transform = "{1, 0, 0, 1, -54, 12}";
+}
+);
+layerId = "FD4D3FDD-DE85-408F-A52A-FF600B1C6101";
+width = 168;
+},
+{
+components = (
+{
+name = idotbelow;
+},
+{
+name = circumflexcomb;
+transform = "{1, 0, 0, 1, -69, 12}";
+}
+);
+layerId = "2AA43DF3-F741-4269-8311-3A3BEA5B2F2C";
+width = 168;
+},
+{
+components = (
+{
+name = idotbelow;
+},
+{
+name = circumflexcomb;
+transform = "{1, 0, 0, 1, -39, 12}";
+}
+);
+layerId = m002;
+width = 298;
+},
+{
+components = (
+{
+name = idotbelow;
+},
+{
+name = circumflexcomb;
+transform = "{1, 0, 0, 1, -99, 12}";
+}
+);
+layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
+width = 298;
+}
+);
+},
+{
+glyphname = idotbelow_macroncomb;
+layers = (
+{
+components = (
+{
+name = idotbelow;
+},
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, -118, 12}";
+}
+);
+layerId = "FD4D3FDD-DE85-408F-A52A-FF600B1C6101";
+width = 168;
+},
+{
+components = (
+{
+name = idotbelow;
+},
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, -118, 12}";
+}
+);
+layerId = "2AA43DF3-F741-4269-8311-3A3BEA5B2F2C";
+width = 168;
+},
+{
+components = (
+{
+name = idotbelow;
+},
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, -53, 12}";
+}
+);
+layerId = m002;
+width = 298;
+},
+{
+components = (
+{
+name = idotbelow;
+},
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, -53, 12}";
+}
+);
+layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
+width = 298;
+}
+);
 },
 {
 glyphname = igrave;
