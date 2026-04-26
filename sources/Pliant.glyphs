@@ -94114,64 +94114,6 @@ width = 1044;
 unicode = 1FF6;
 },
 {
-glyphname = etapsilivaria.001;
-lastChange = "2026-04-22 03:41:31 +0000";
-layers = (
-{
-components = (
-{
-name = eta;
-},
-{
-name = psilivaria;
-transform = "{1, 0, 0, 1, 180, 12}";
-}
-);
-layerId = "FD4D3FDD-DE85-408F-A52A-FF600B1C6101";
-width = 590;
-},
-{
-components = (
-{
-name = eta;
-},
-{
-name = psilivaria;
-transform = "{1, 0, 0, 1, 235, 12}";
-}
-);
-layerId = "2AA43DF3-F741-4269-8311-3A3BEA5B2F2C";
-width = 710;
-},
-{
-components = (
-{
-name = eta;
-},
-{
-name = psilivaria;
-transform = "{1, 0, 0, 1, 151, 12}";
-}
-);
-layerId = m002;
-width = 685;
-},
-{
-components = (
-{
-name = eta;
-},
-{
-name = psilivaria;
-transform = "{1, 0, 0, 1, 218, 12}";
-}
-);
-layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
-width = 793;
-}
-);
-},
-{
 glyphname = thetamod;
 lastChange = "2026-04-22 03:41:31 +0000";
 layers = (

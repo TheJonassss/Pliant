@@ -55,7 +55,7 @@ Tag = wdth;
 date = "2026-04-25 18:55:54 +0000";
 designer = "Jona Saucedo";
 designerURL = "http://nonfoundry.com";
-familyName = "Pliant Italic";
+familyName = Pliant;
 featurePrefixes = (
 {
 automatic = 1;
@@ -93878,64 +93878,6 @@ width = 1043;
 unicode = 1FF6;
 },
 {
-glyphname = etapsilivaria.001;
-lastChange = "2026-04-25 18:55:43 +0000";
-layers = (
-{
-components = (
-{
-name = eta;
-},
-{
-name = psilivaria;
-transform = "{1, 0, 0, 1, 191, 12}";
-}
-);
-layerId = "FD4D3FDD-DE85-408F-A52A-FF600B1C6101";
-width = 590;
-},
-{
-components = (
-{
-name = eta;
-},
-{
-name = psilivaria;
-transform = "{1, 0, 0, 1, 244, 12}";
-}
-);
-layerId = "2AA43DF3-F741-4269-8311-3A3BEA5B2F2C";
-width = 710;
-},
-{
-components = (
-{
-name = eta;
-},
-{
-name = psilivaria;
-transform = "{1, 0, 0, 1, 141, 12}";
-}
-);
-layerId = m002;
-width = 685;
-},
-{
-components = (
-{
-name = eta;
-},
-{
-name = psilivaria;
-transform = "{1, 0, 0, 1, 208, 12}";
-}
-);
-layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
-width = 793;
-}
-);
-},
-{
 glyphname = thetamod;
 lastChange = "2026-04-25 18:55:43 +0000";
 layers = (
@@ -135386,7 +135328,7 @@ interpolationWidth = 0;
 instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 1;
 };
-name = "Thin Italic";
+name = Thin;
 weightClass = Thin;
 },
 {
@@ -135396,7 +135338,7 @@ instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.83333;
 m002 = 0.16667;
 };
-name = "Light Italic";
+name = Light;
 weightClass = Light;
 },
 {
@@ -135406,7 +135348,7 @@ instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.66667;
 m002 = 0.33333;
 };
-name = "Regular Italic";
+name = Regular;
 },
 {
 interpolationWeight = 110;
@@ -135415,7 +135357,7 @@ instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.5;
 m002 = 0.5;
 };
-name = "Medium Italic";
+name = Medium;
 weightClass = Medium;
 },
 {
@@ -135425,7 +135367,7 @@ instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.33333;
 m002 = 0.66667;
 };
-name = "SemiBold Italic";
+name = SemiBold;
 weightClass = SemiBold;
 },
 {
@@ -135435,7 +135377,7 @@ instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.16667;
 m002 = 0.83333;
 };
-name = "Bold Italic";
+name = Bold;
 weightClass = Bold;
 },
 {
@@ -135446,7 +135388,7 @@ m002 = 1;
 };
 isBold = 1;
 linkStyle = Light;
-name = "Black Italic";
+name = Black;
 weightClass = Black;
 }
 );
