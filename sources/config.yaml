@@ -49,7 +49,7 @@ stat:
       value: 800
     - name: Black
       value: 900
-Pliant-Italic[wdth,wght].ttf:
+  Pliant-Italic[wdth,wght].ttf:
   - name: Width
     tag: wdth
     values:
