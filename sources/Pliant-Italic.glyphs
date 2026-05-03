@@ -51,7 +51,7 @@ Tag = wdth;
 );
 }
 );
-date = "2026-04-25 18:55:54 +0000";
+date = "2026-05-03 17:57:29 +0000";
 designer = "Jona Saucedo";
 designerURL = "http://nonfoundry.com";
 familyName = Pliant;
@@ -183,6 +183,19 @@ value = 950;
 {
 name = winDescent;
 value = 250;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
 }
 );
 descender = -217;
@@ -206,7 +219,6 @@ verticalStems = (
 40
 );
 weightValue = 50;
-widthValue = 0;
 xHeight = 520;
 },
 {
@@ -219,7 +231,7 @@ alignmentZones = (
 );
 ascender = 936;
 capHeight = 714;
-custom = Thin;
+custom = "Thin Expanded";
 customParameters = (
 {
 name = hheaAscender;
@@ -252,6 +264,19 @@ value = 950;
 {
 name = winDescent;
 value = 250;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
 }
 );
 descender = -217;
@@ -262,7 +287,6 @@ horizontalStems = (
 iconName = Light_Extended;
 id = "2AA43DF3-F741-4269-8311-3A3BEA5B2F2C";
 italicAngle = 4;
-name = "Thin Extended";
 userData = {
 GSCornerRadius = 60;
 };
@@ -272,8 +296,7 @@ verticalStems = (
 40
 );
 weightValue = 50;
-width = Extended;
-widthValue = 200;
+widthValue = 125;
 xHeight = 520;
 },
 {
@@ -319,6 +342,19 @@ value = 950;
 {
 name = winDescent;
 value = 250;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
 }
 );
 descender = -217;
@@ -342,7 +378,6 @@ verticalStems = (
 150
 );
 weightValue = 170;
-widthValue = 0;
 xHeight = 520;
 },
 {
@@ -355,7 +390,7 @@ alignmentZones = (
 );
 ascender = 936;
 capHeight = 714;
-custom = Black;
+custom = "Black Expanded";
 customParameters = (
 {
 name = hheaAscender;
@@ -388,6 +423,19 @@ value = 950;
 {
 name = winDescent;
 value = 250;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
 }
 );
 descender = -217;
@@ -398,7 +446,6 @@ horizontalStems = (
 iconName = Bold_Extended;
 id = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
 italicAngle = 4;
-name = "Black Extended";
 userData = {
 GSCornerRadius = 97;
 };
@@ -408,8 +455,7 @@ verticalStems = (
 150
 );
 weightValue = 170;
-width = Extended;
-widthValue = 200;
+widthValue = 125;
 xHeight = 520;
 }
 );
@@ -135290,8 +135336,22 @@ unicode = 02C8;
 );
 instances = (
 {
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 interpolationWeight = 50;
-interpolationWidth = 0;
 instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 1;
 };
@@ -135299,8 +135359,22 @@ name = Thin;
 weightClass = Thin;
 },
 {
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 interpolationWeight = 70;
-interpolationWidth = 0;
 instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.83333;
 m002 = 0.16667;
@@ -135309,8 +135383,22 @@ name = Light;
 weightClass = Light;
 },
 {
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 interpolationWeight = 90;
-interpolationWidth = 0;
 instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.66667;
 m002 = 0.33333;
@@ -135318,8 +135406,22 @@ m002 = 0.33333;
 name = Regular;
 },
 {
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 interpolationWeight = 110;
-interpolationWidth = 0;
 instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.5;
 m002 = 0.5;
@@ -135328,8 +135430,22 @@ name = Medium;
 weightClass = Medium;
 },
 {
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 interpolationWeight = 130;
-interpolationWidth = 0;
 instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.33333;
 m002 = 0.66667;
@@ -135338,8 +135454,22 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 interpolationWeight = 150;
-interpolationWidth = 0;
 instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.16667;
 m002 = 0.83333;
@@ -135348,8 +135478,22 @@ name = Bold;
 weightClass = Bold;
 },
 {
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 interpolationWeight = 170;
-interpolationWidth = 0;
 instanceInterpolations = {
 m002 = 1;
 };

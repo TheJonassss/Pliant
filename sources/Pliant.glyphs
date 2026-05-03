@@ -9,7 +9,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ,
 "/alpha/beta/gamma/delta/epsilon/zeta \012/eta/theta/iota/kappa/lambda/mu/nu \0123/xi/omicron/pi/rho/sigmafinal/sigma \012/tau/upsilon/phi/chi/psi/omega \012\012/sigmafinal/zeta/eta/xi/Phi",
 "+/minus ×÷=/notequal ></greaterequal/lessequal ±/approxequal ~¬^/infinity/emptyset/integral/Ohm/increment/product/summation/radical/partialdiff µ%/perthousand/upArrow/northEastArrow/rightArrow/southEastArrow/downArrow/southWestArrow/leftArrow/northWestArrow/leftRightArrow/upDownArrow/blackCircle/whiteCircle/whiteBullet/blackDiamond/whiteDiamond/lozenge/blackSquare/whiteSquare/blackSmallSquare/whiteSmallSquare/upBlackTriangle/rightBlackTriangle/downBlackTriangle/leftBlackTriangle/upWhiteTriangle/rightWhiteTriangle/downWhiteTriangle/leftWhiteTriangle/upBlackSmallTriangle/rightBlackSmallTriangle/downBlackSmallTriangle/leftBlackSmallTriangle/upWhiteSmallTriangle/rightWhiteSmallTriangle/downWhiteSmallTriangle/leftWhiteSmallTriangle/dottedCircle",
 "/three.dnom/three.numr",
-"/sigmafinal"
+and
 );
 classes = (
 {
@@ -55,7 +55,7 @@ Tag = wdth;
 );
 }
 );
-date = "2026-04-25 18:56:26 +0000";
+date = "2026-05-03 17:34:53 +0000";
 designer = "Jona Saucedo";
 designerURL = "http://nonfoundry.com";
 familyName = Pliant;
@@ -187,6 +187,19 @@ value = 950;
 {
 name = winDescent;
 value = 250;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
 }
 );
 descender = -217;
@@ -209,7 +222,6 @@ verticalStems = (
 40
 );
 weightValue = 50;
-widthValue = 0;
 xHeight = 520;
 },
 {
@@ -222,7 +234,7 @@ alignmentZones = (
 );
 ascender = 936;
 capHeight = 714;
-custom = Thin;
+custom = "Thin Expanded";
 customParameters = (
 {
 name = hheaAscender;
@@ -255,6 +267,19 @@ value = 950;
 {
 name = winDescent;
 value = 250;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
 }
 );
 descender = -217;
@@ -264,7 +289,6 @@ horizontalStems = (
 );
 iconName = Light_Extended;
 id = "2AA43DF3-F741-4269-8311-3A3BEA5B2F2C";
-name = "Thin Extended";
 userData = {
 GSCornerRadius = 60;
 };
@@ -274,8 +298,7 @@ verticalStems = (
 40
 );
 weightValue = 50;
-width = Extended;
-widthValue = 200;
+widthValue = 125;
 xHeight = 520;
 },
 {
@@ -321,6 +344,19 @@ value = 950;
 {
 name = winDescent;
 value = 250;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
 }
 );
 descender = -217;
@@ -343,7 +379,6 @@ verticalStems = (
 150
 );
 weightValue = 170;
-widthValue = 0;
 xHeight = 520;
 },
 {
@@ -356,7 +391,7 @@ alignmentZones = (
 );
 ascender = 936;
 capHeight = 714;
-custom = Black;
+custom = "Black Expanded";
 customParameters = (
 {
 name = hheaAscender;
@@ -389,6 +424,19 @@ value = 950;
 {
 name = winDescent;
 value = 250;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
 }
 );
 descender = -217;
@@ -398,7 +446,6 @@ horizontalStems = (
 );
 iconName = Bold_Extended;
 id = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
-name = "Black Extended";
 userData = {
 GSCornerRadius = 97;
 };
@@ -408,8 +455,7 @@ verticalStems = (
 150
 );
 weightValue = 170;
-width = Extended;
-widthValue = 200;
+widthValue = 125;
 xHeight = 520;
 }
 );
@@ -25000,7 +25046,7 @@ unicode = 00F0;
 },
 {
 glyphname = e;
-lastChange = "2026-04-22 03:41:31 +0000";
+lastChange = "2026-05-03 14:14:34 +0000";
 layers = (
 {
 anchors = (
@@ -25064,7 +25110,7 @@ position = "{322, 0}";
 },
 {
 name = Top;
-position = "{322, 532}";
+position = "{302, 532}";
 }
 );
 layerId = m002;
@@ -25172,7 +25218,7 @@ position = "{386, 0}";
 },
 {
 name = Top;
-position = "{378, 532}";
+position = "{358, 532}";
 }
 );
 layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
@@ -25249,7 +25295,7 @@ name = e;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 223, 12}";
+transform = "{1, 0, 0, 1, 203, 12}";
 }
 );
 layerId = m002;
@@ -25275,7 +25321,7 @@ name = e;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 279, 12}";
+transform = "{1, 0, 0, 1, 259, 12}";
 }
 );
 layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
@@ -25310,7 +25356,7 @@ name = e;
 },
 {
 name = brevecomb;
-transform = "{1, 0, 0, 1, 141, 12}";
+transform = "{1, 0, 0, 1, 121, 12}";
 }
 );
 layerId = m002;
@@ -25336,7 +25382,7 @@ name = e;
 },
 {
 name = brevecomb;
-transform = "{1, 0, 0, 1, 152, 12}";
+transform = "{1, 0, 0, 1, 132, 12}";
 }
 );
 layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
@@ -25371,7 +25417,7 @@ name = e;
 },
 {
 name = caroncomb;
-transform = "{1, 0, 0, 1, 124, 12}";
+transform = "{1, 0, 0, 1, 104, 12}";
 }
 );
 layerId = m002;
@@ -25397,7 +25443,7 @@ name = e;
 },
 {
 name = caroncomb;
-transform = "{1, 0, 0, 1, 130, 12}";
+transform = "{1, 0, 0, 1, 110, 12}";
 }
 );
 layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
@@ -25432,7 +25478,7 @@ name = e;
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 134, 12}";
+transform = "{1, 0, 0, 1, 114, 12}";
 }
 );
 layerId = m002;
@@ -25458,7 +25504,7 @@ name = e;
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 130, 12}";
+transform = "{1, 0, 0, 1, 110, 12}";
 }
 );
 layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
@@ -25518,7 +25564,7 @@ transform = "{1, 0, 0, 1, 193, 0}";
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 134, 12}";
+transform = "{1, 0, 0, 1, 114, 12}";
 }
 );
 layerId = m002;
@@ -25535,7 +25581,7 @@ transform = "{1, 0, 0, 1, 251, 0}";
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 130, 12}";
+transform = "{1, 0, 0, 1, 110, 12}";
 }
 );
 layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
@@ -25568,7 +25614,7 @@ name = e;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 100, 12}";
+transform = "{1, 0, 0, 1, 80, 12}";
 }
 );
 layerId = m002;
@@ -25594,7 +25640,7 @@ name = e;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 156, 12}";
+transform = "{1, 0, 0, 1, 136, 12}";
 }
 );
 layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
@@ -25629,7 +25675,7 @@ name = e;
 },
 {
 name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 197, 12}";
+transform = "{1, 0, 0, 1, 177, 12}";
 }
 );
 layerId = m002;
@@ -25655,7 +25701,7 @@ name = e;
 },
 {
 name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 253, 12}";
+transform = "{1, 0, 0, 1, 233, 12}";
 }
 );
 layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
@@ -25751,7 +25797,7 @@ name = e;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 139, 12}";
+transform = "{1, 0, 0, 1, 119, 12}";
 }
 );
 layerId = m002;
@@ -25777,7 +25823,7 @@ name = e;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 205, 12}";
+transform = "{1, 0, 0, 1, 185, 12}";
 }
 );
 layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
@@ -25790,7 +25836,7 @@ unicode = 00E8;
 },
 {
 glyphname = emacron;
-lastChange = "2026-04-22 03:41:31 +0000";
+lastChange = "2026-05-03 14:14:34 +0000";
 layers = (
 {
 components = (
@@ -25812,7 +25858,7 @@ name = e;
 },
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 120, 12}";
+transform = "{1, 0, 0, 1, 100, 12}";
 }
 );
 layerId = m002;
@@ -25838,7 +25884,7 @@ name = e;
 },
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 176, 12}";
+transform = "{1, 0, 0, 1, 156, 12}";
 }
 );
 layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
@@ -25878,7 +25924,7 @@ name = e;
 },
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 120, 12}";
+transform = "{1, 0, 0, 1, 100, 12}";
 },
 {
 alignment = -1;
@@ -25914,7 +25960,7 @@ name = e;
 },
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 176, 12}";
+transform = "{1, 0, 0, 1, 156, 12}";
 },
 {
 alignment = -1;
@@ -25961,7 +26007,7 @@ name = e;
 },
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 120, 12}";
+transform = "{1, 0, 0, 1, 100, 12}";
 },
 {
 alignment = -1;
@@ -25997,7 +26043,7 @@ name = e;
 },
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 176, 12}";
+transform = "{1, 0, 0, 1, 156, 12}";
 },
 {
 alignment = -1;
@@ -26323,7 +26369,7 @@ name = e;
 },
 {
 name = tildecomb;
-transform = "{1, 0, 0, 1, 90, 12}";
+transform = "{1, 0, 0, 1, 70, 12}";
 }
 );
 layerId = m002;
@@ -26349,7 +26395,7 @@ name = e;
 },
 {
 name = tildecomb;
-transform = "{1, 0, 0, 1, 146, 12}";
+transform = "{1, 0, 0, 1, 126, 12}";
 }
 );
 layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
@@ -61902,7 +61948,7 @@ name = "ie-cy";
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 139, 12}";
+transform = "{1, 0, 0, 1, 119, 12}";
 }
 );
 layerId = m002;
@@ -61928,7 +61974,7 @@ name = "ie-cy";
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 205, 12}";
+transform = "{1, 0, 0, 1, 185, 12}";
 }
 );
 layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
@@ -61963,7 +62009,7 @@ name = "ie-cy";
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 100, 12}";
+transform = "{1, 0, 0, 1, 80, 12}";
 }
 );
 layerId = m002;
@@ -61989,7 +62035,7 @@ name = "ie-cy";
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 156, 12}";
+transform = "{1, 0, 0, 1, 136, 12}";
 }
 );
 layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
@@ -72489,7 +72535,7 @@ name = "ie-cy";
 },
 {
 name = "brevecomb-cy";
-transform = "{1, 0, 0, 1, 141, 12}";
+transform = "{1, 0, 0, 1, 121, 12}";
 }
 );
 layerId = m002;
@@ -72515,7 +72561,7 @@ name = "ie-cy";
 },
 {
 name = "brevecomb-cy";
-transform = "{1, 0, 0, 1, 152, 12}";
+transform = "{1, 0, 0, 1, 132, 12}";
 }
 );
 layerId = "2B8C56A3-DCBD-4946-B3F7-595679620A89";
@@ -131729,7 +131775,7 @@ unicode = 0303;
 },
 {
 glyphname = macroncomb;
-lastChange = "2026-04-22 03:41:31 +0000";
+lastChange = "2026-05-03 14:14:17 +0000";
 layers = (
 {
 anchors = (
@@ -131772,10 +131818,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"20 627 LINE",
+"20 677 LINE",
 "20 567 LINE",
 "384 567 LINE",
-"384 627 LINE"
+"384 677 LINE"
 );
 }
 );
@@ -131822,10 +131868,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"20 627 LINE",
+"20 677 LINE",
 "20 567 LINE",
 "384 567 LINE",
-"384 627 LINE"
+"384 677 LINE"
 );
 }
 );
@@ -135521,8 +135567,22 @@ unicode = 02C8;
 );
 instances = (
 {
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 interpolationWeight = 50;
-interpolationWidth = 0;
 instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 1;
 };
@@ -135530,8 +135590,22 @@ name = Thin;
 weightClass = Thin;
 },
 {
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 interpolationWeight = 70;
-interpolationWidth = 0;
 instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.83333;
 m002 = 0.16667;
@@ -135540,8 +135614,22 @@ name = Light;
 weightClass = Light;
 },
 {
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 interpolationWeight = 90;
-interpolationWidth = 0;
 instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.66667;
 m002 = 0.33333;
@@ -135549,8 +135637,22 @@ m002 = 0.33333;
 name = Regular;
 },
 {
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 interpolationWeight = 110;
-interpolationWidth = 0;
 instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.5;
 m002 = 0.5;
@@ -135559,8 +135661,22 @@ name = Medium;
 weightClass = Medium;
 },
 {
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 interpolationWeight = 130;
-interpolationWidth = 0;
 instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.33333;
 m002 = 0.66667;
@@ -135569,8 +135685,22 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 interpolationWeight = 150;
-interpolationWidth = 0;
 instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.16667;
 m002 = 0.83333;
@@ -135579,8 +135709,22 @@ name = Bold;
 weightClass = Bold;
 },
 {
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 interpolationWeight = 170;
-interpolationWidth = 0;
 instanceInterpolations = {
 m002 = 1;
 };
