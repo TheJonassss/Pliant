@@ -8,7 +8,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ,
 "/Alpha/Beta/Gamma/Delta/Epsilon/Zeta/Eta \012/Theta/Iota/Kappa/Lambda/Mu/Nu/Xi \012/Omicron/Pi/Rho/Sigma/Tau/Upsilon/Phi \012/Chi/Psi/Omega",
 "/alpha/beta/gamma/delta/epsilon/zeta \012/eta/theta/iota/kappa/lambda/mu/nu \0123/xi/omicron/pi/rho/sigmafinal/sigma \012/tau/upsilon/phi/chi/psi/omega \012\012/sigmafinal/zeta/eta/xi/Phi",
 "+/minus ×÷=/notequal ></greaterequal/lessequal ±/approxequal ~¬^/infinity/emptyset/integral/Ohm/increment/product/summation/radical/partialdiff µ%/perthousand/upArrow/northEastArrow/rightArrow/southEastArrow/downArrow/southWestArrow/leftArrow/northWestArrow/leftRightArrow/upDownArrow/blackCircle/whiteCircle/whiteBullet/blackDiamond/whiteDiamond/lozenge/blackSquare/whiteSquare/blackSmallSquare/whiteSmallSquare/upBlackTriangle/rightBlackTriangle/downBlackTriangle/leftBlackTriangle/upWhiteTriangle/rightWhiteTriangle/downWhiteTriangle/leftWhiteTriangle/upBlackSmallTriangle/rightBlackSmallTriangle/downBlackSmallTriangle/leftBlackSmallTriangle/upWhiteSmallTriangle/rightWhiteSmallTriangle/downWhiteSmallTriangle/leftWhiteSmallTriangle/dottedCircle",
-"Mexican\012styles\012Hey\012primary\012ef/fi ciency\012By\012Wikipedia",
+"Variable\012Axes",
 "/fi"
 );
 classes = (
@@ -20507,7 +20507,7 @@ unicode = 026A;
 },
 {
 glyphname = a;
-lastChange = "2026-04-22 03:41:31 +0000";
+lastChange = "2026-05-07 22:39:03 +0000";
 layers = (
 {
 anchors = (
@@ -25054,7 +25054,7 @@ unicode = 00F0;
 },
 {
 glyphname = e;
-lastChange = "2026-05-07 01:18:13 +0000";
+lastChange = "2026-05-07 22:40:59 +0000";
 layers = (
 {
 anchors = (
@@ -40971,7 +40971,7 @@ unicode = 1E81;
 },
 {
 glyphname = x;
-lastChange = "2026-05-07 00:25:34 +0000";
+lastChange = "2026-05-07 22:41:27 +0000";
 layers = (
 {
 anchors = (
@@ -40985,17 +40985,17 @@ paths = (
 {
 closed = 1;
 nodes = (
-"248 260 LINE",
+"247 260 LINE",
 "61 0 LINE",
-"116 0 LINE",
-"275 222 LINE",
-"435 0 LINE",
+"119 0 LINE",
+"275 217 LINE",
+"432 0 LINE",
 "490 0 LINE",
-"303 260 LINE",
+"304 260 LINE",
 "489 520 LINE",
-"434 520 LINE",
-"275 298 LINE",
-"115 520 LINE",
+"431 520 LINE",
+"275 303 LINE",
+"118 520 LINE",
 "60 520 LINE"
 );
 }
@@ -41043,17 +41043,17 @@ paths = (
 {
 closed = 1;
 nodes = (
-"292 260 LINE",
+"290 260 LINE",
 "60 0 LINE",
-"117 0 LINE",
-"316 224 LINE",
-"516 0 LINE",
+"124 0 LINE",
+"316 217 LINE",
+"509 0 LINE",
 "573 0 LINE",
-"340 260 LINE",
+"342 260 LINE",
 "570 520 LINE",
-"513 520 LINE",
-"316 296 LINE",
-"118 520 LINE",
+"506 520 LINE",
+"316 303 LINE",
+"125 520 LINE",
 "61 520 LINE"
 );
 }
@@ -135823,6 +135823,7 @@ kerning = {
 "@MMK_R_t" = -30;
 "@MMK_R_u" = -20;
 "@MMK_R_v" = -110;
+"@MMK_R_x" = -40;
 "@MMK_R_y" = -60;
 };
 "@MMK_L_A-cy" = {
@@ -136185,7 +136186,7 @@ dcroat = -70;
 "@MMK_R_j" = -120;
 "@MMK_R_jcircumflex" = -110;
 "@MMK_R_n" = -30;
-"@MMK_R_o" = -70;
+"@MMK_R_o" = -110;
 "@MMK_R_period" = -70;
 "@MMK_R_s" = -60;
 "@MMK_R_slash" = -130;
@@ -136757,7 +136758,7 @@ xi = -20;
 "@MMK_R_iotatonos" = -60;
 "@MMK_R_j" = -90;
 "@MMK_R_jcircumflex" = -70;
-"@MMK_R_o" = -20;
+"@MMK_R_o" = -40;
 "@MMK_R_psi" = -40;
 "@MMK_R_slash" = 30;
 "@MMK_R_v" = -20;
@@ -136888,6 +136889,7 @@ slash = {
 "@MMK_R_V" = -160;
 "@MMK_R_f" = -60;
 "@MMK_R_v" = -130;
+"@MMK_R_x" = -20;
 };
 "@MMK_L_B" = {
 "@MMK_R_y" = -50;
@@ -136923,6 +136925,7 @@ slash = {
 "@MMK_L_V" = {
 "@MMK_R_S" = -10;
 "@MMK_R_idotless" = -10;
+"@MMK_R_o" = -130;
 };
 "@MMK_L_Y" = {
 "@MMK_R_Upsilondasia" = 230;
@@ -136968,6 +136971,9 @@ nu = -50;
 "@MMK_R_n" = -30;
 "@MMK_R_o" = -70;
 "@MMK_R_v" = 0;
+};
+"@MMK_L_x" = {
+"@MMK_R_o" = -50;
 };
 "@MMK_L_y" = {
 "@MMK_R_h" = -50;
@@ -137059,6 +137065,7 @@ m002 = {
 "@MMK_R_t" = -30;
 "@MMK_R_u" = -40;
 "@MMK_R_v" = -120;
+"@MMK_R_x" = -30;
 "@MMK_R_y" = -60;
 };
 "@MMK_L_A-cy" = {
@@ -137430,7 +137437,7 @@ dcroat = -20;
 "@MMK_R_j" = -60;
 "@MMK_R_jcircumflex" = -60;
 "@MMK_R_n" = -30;
-"@MMK_R_o" = -90;
+"@MMK_R_o" = -130;
 "@MMK_R_period" = -120;
 "@MMK_R_s" = -90;
 "@MMK_R_slash" = -130;
@@ -137920,7 +137927,7 @@ tau = 10;
 "@MMK_R_a" = -30;
 "@MMK_R_j" = -40;
 "@MMK_R_jcircumflex" = -60;
-"@MMK_R_o" = -30;
+"@MMK_R_o" = -50;
 "@MMK_R_slash" = 20;
 "@MMK_R_v" = -20;
 "@MMK_R_x" = -10;
@@ -138041,6 +138048,7 @@ space = {
 "@MMK_R_V" = -210;
 "@MMK_R_f" = -60;
 "@MMK_R_v" = -160;
+"@MMK_R_x" = -40;
 };
 "@MMK_L_B" = {
 "@MMK_R_y" = -40;
@@ -138089,6 +138097,7 @@ space = {
 "@MMK_L_V" = {
 "@MMK_R_S" = -60;
 "@MMK_R_Upsilondasia" = 170;
+"@MMK_R_o" = -150;
 };
 "@MMK_L_Y" = {
 "@MMK_R_Omicrontonos" = 120;
@@ -138135,6 +138144,9 @@ nu = -40;
 "@MMK_R_n" = -30;
 "@MMK_R_o" = -60;
 "@MMK_R_v" = -10;
+};
+"@MMK_L_x" = {
+"@MMK_R_o" = -70;
 };
 "@MMK_L_y" = {
 "@MMK_R_h" = -30;
