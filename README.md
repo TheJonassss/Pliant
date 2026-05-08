@@ -42,7 +42,7 @@
 
 ---
 
-# My Font
+# Pliant
 
 [![][Fontspector]](https://googlefonts.github.io/googlefonts-project-template/fontspector/fontspector-report.html)
 [![][OpenType]](https://googlefonts.github.io/googlefonts-project-template/fontspector/fontspector-report.html)
@@ -57,43 +57,46 @@
 [Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgooglefonts.github.io%2Fgooglefonts-project-template%2Fbadges%2FOutlineCorrectnessChecks.json
 [Glyphset]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgooglefonts.github.io%2Fgooglefonts-project-template%2Fbadges%2FGlyphsetChecks.json
 
-Pliant is a type family with the character and structure of Swiss typography, making it a universal choice for any design need. It also offers a functional collection that adapts to diverse environments without losing readability in continuous text. Linguistically, it supports languages covered by Latin Extended, Cyrillic, and basic Greek. Pliant contains a total of 1,020 glyphs and is available in Regular, Italic, Extended, and Extended Italic styles.
+![Pliant Font Collection](documentation/pliant-font-collection.gif)
 
-![Sample Image](documentation/image1.png)
-![Sample Image](documentation/image2.png)
+Pliant is a variable sans-serif designed for flexibility across editorial, branding, and interface environments. Supporting Latin, Greek, and Cyrillic scripts, the family combines weight and width variation within a contemporary typographic system.
+
+---
+
+![Support Latin Greek Cyrillic](documentation/pliant-language-support.jpg)
+
+Pliant was designed as a versatile system capable of adapting across multiple typographic environments while maintaining consistency, clarity, and rhythm. The family explores spatial flexibility through proportional changes ranging from compact to expanded compositions.
+
+---
+
+![Decorative Expanded Alphabet](documentation/pliant-expanded-alphabet.jpg)
+
+## Features
+
+- Variable font
+- Weight axis (`wght`)
+- Width axis (`wdth`)
+- Upright and italic styles
+- Latin support
+- Greek support
+- Cyrillic support
+- 1,020 glyphs
 
 ## About
 
-Non Foundry is a type foundry that originated sometime in 2019 in Monterrey, Mexico.Since then our fundamental philosophy is "aesthetics+functionality". Our typefaces combine these two attributes plus historical knowledge to convey meaning that transcends beyond words.
+Non Foundry is an independent type foundry based in Monterrey, Mexico. Since 2019, the studio has focused on developing typefaces that balance aesthetics and functionality through contemporary systems and typographic research.
 
 ## Building
 
-Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
+Fonts are built automatically by GitHub Actions — take a look in the “Actions” tab for the latest build.
 
 If you want to build fonts manually on your own computer:
 
 - `make build` will produce font files.
-- `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
+- `make test` will run FontBakery quality assurance tests.
 - `make proof` will generate HTML proof files.
-
-The proof files and QA tests are also available automatically via GitHub Actions - look at `https://yourname.github.io/your-font-repository-name`.
-
-## Changelog
-
-When you update your font (new version or new release), please report all notable changes here, with a date.
-[Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver.
-Changelog example:
-
-**26 May 2021. Version 2.13**
-
-- MAJOR Font turned to a variable font.
-- SIGNIFICANT New Stylistic sets added.
 
 ## License
 
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This Font Software is licensed under the SIL Open Font License, Version 1.1.  
 This license is available with a FAQ at https://openfontlicense.org
-
-## Repository Layout
-
-This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
