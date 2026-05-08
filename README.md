@@ -13,7 +13,7 @@
 [Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgooglefonts.github.io%2Fgooglefonts-project-template%2Fbadges%2FOutlineCorrectnessChecks.json
 [Glyphset]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgooglefonts.github.io%2Fgooglefonts-project-template%2Fbadges%2FGlyphsetChecks.json
 
-![Pliant Font Collection](documentation/pliant-font-collection.mp4)
+![Pliant Font Collection](documentation/pliant-font-collection.gif)
 
 Pliant is a variable sans-serif designed for flexibility across editorial, branding, and interface environments. Pliant was designed as a versatile system capable of adapting across multiple typographic environments while maintaining consistency, clarity, and rhythm.
 
