@@ -52,14 +52,6 @@ Name = Width;
 Tag = wdth;
 }
 );
-},
-{
-name = variableStyleName;
-value = "Pliant[wdth,wght]";
-},
-{
-name = "Variable Font File Name";
-value = Pliant;
 }
 );
 date = "2026-05-07 02:39:45 +0000";
@@ -135603,6 +135595,30 @@ name = "Axis Location";
 value = (
 {
 Axis = Weight;
+Location = 200;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
+interpolationWeight = 60;
+instanceInterpolations = {
+"FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.91667;
+m002 = 0.08333;
+};
+name = ExtraLight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
 Location = 300;
 },
 {
@@ -135712,8 +135728,33 @@ instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.16667;
 m002 = 0.83333;
 };
+isBold = 1;
 name = Bold;
 weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
+interpolationWeight = 160;
+instanceInterpolations = {
+"FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.08333;
+m002 = 0.91667;
+};
+name = ExtraBold;
+weightClass = ExtraBold;
 },
 {
 customParameters = (
@@ -135735,8 +135776,6 @@ interpolationWeight = 170;
 instanceInterpolations = {
 m002 = 1;
 };
-isBold = 1;
-linkStyle = Light;
 name = Black;
 weightClass = Black;
 }

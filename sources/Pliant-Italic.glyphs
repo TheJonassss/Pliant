@@ -50,14 +50,6 @@ Name = Width;
 Tag = wdth;
 }
 );
-},
-{
-name = variableStyleName;
-value = "Pliant-Italic[wdth,wght] Italic";
-},
-{
-name = "Variable Font File Name";
-value = "Pliant-Italic";
 }
 );
 date = "2026-05-07 02:36:52 +0000";
@@ -135375,6 +135367,31 @@ name = "Axis Location";
 value = (
 {
 Axis = Weight;
+Location = 200;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
+interpolationWeight = 60;
+instanceInterpolations = {
+"FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.91667;
+m002 = 0.08333;
+};
+isItalic = 1;
+name = "ExtraLight Italic";
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
 Location = 300;
 },
 {
@@ -135492,6 +135509,31 @@ isBold = 1;
 isItalic = 1;
 name = "Bold Italic";
 weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
+interpolationWeight = 160;
+instanceInterpolations = {
+"FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.08333;
+m002 = 0.91667;
+};
+isItalic = 1;
+name = "ExtraBold Italic";
+weightClass = ExtraBold;
 },
 {
 customParameters = (
