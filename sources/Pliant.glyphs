@@ -1,7 +1,6 @@
 {
-.appVersion = "3522";
+.appVersion = "3516";
 DisplayStrings = (
-"nñ/tildecomb/tilde NÑ/brevecomb/breve/obreve/Obreve/caroncomb/caron/Ocaron/circumflexcomb/circumflex Ô/brevebelowcomb/Hbrevebelow/ringcomb/ringcomb/ringcomb/ring/Uring/ubreve/ucaron ûü/udotbelow u/uogonek",
 ABCDEFGHIJKLMNOPQRSTUVWXYZ,
 "/be-cy/ve-cy/ge-cy/gje-cy/geupturn-cy/gedescender-cy/gestroke-cy/gemiddlehook-cy/de-cy/iegrave-cy/io-cy/zhe-cy/ze-cy/ii-cy/iishort-cy/iigrave-cy/ka-cy/kje-cy/el-cy/em-cy/en-cy/pe-cy/te-cy/ushort-cy/ef-cy/che-cy/tse-cy/sha-cy/shcha-cy/dzhe-cy/softsign-cy/yeru-cy/hardsign-cy/lje-cy/nje-cy/e-cy/ereversed-cy/tshe-cy/yu-cy/ya-cy/dje-cy/yat-cy/fita-cy/izhitsa-cy/zhedescender-cy",
 "ae/idotless iou",

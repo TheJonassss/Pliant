@@ -1,5 +1,5 @@
 {
-.appVersion = "3522";
+.appVersion = "3516";
 DisplayStrings = (
 "nñ/tildecomb/tilde NÑ/brevecomb/breve/obreve/Obreve/caroncomb/caron/Ocaron/circumflexcomb/circumflex Ô/brevebelowcomb/Hbrevebelow/ringcomb/ringcomb/ringcomb/ring/Uring/ubreve/ucaron ûü/udotbelow u/uogonek",
 ABCDEFGHIJKLMNOPQRSTUVWXYZ,
@@ -53,7 +53,7 @@ Tag = wdth;
 },
 {
 name = variableStyleName;
-value = "Pliant-Italic[wdth,wght]";
+value = "Pliant-Italic[wdth,wght] Italic";
 },
 {
 name = "Variable Font File Name";
@@ -159,7 +159,7 @@ alignmentZones = (
 );
 ascender = 936;
 capHeight = 714;
-custom = Thin;
+custom = "Thin Italic";
 customParameters = (
 {
 name = hheaAscender;
@@ -240,7 +240,7 @@ alignmentZones = (
 );
 ascender = 936;
 capHeight = 714;
-custom = "Thin Expanded";
+custom = "Thin Expanded Italic";
 customParameters = (
 {
 name = hheaAscender;
@@ -318,7 +318,7 @@ alignmentZones = (
 );
 ascender = 936;
 capHeight = 714;
-custom = Black;
+custom = "Black Italic";
 customParameters = (
 {
 name = hheaAscender;
@@ -399,7 +399,7 @@ alignmentZones = (
 );
 ascender = 936;
 capHeight = 714;
-custom = "Black Expanded";
+custom = "Black Expanded Italic";
 customParameters = (
 {
 name = hheaAscender;
@@ -135364,7 +135364,8 @@ interpolationWeight = 50;
 instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 1;
 };
-name = Thin;
+isItalic = 1;
+name = "Thin Italic";
 weightClass = Thin;
 },
 {
@@ -135388,7 +135389,8 @@ instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.83333;
 m002 = 0.16667;
 };
-name = Light;
+isItalic = 1;
+name = "Light Italic";
 weightClass = Light;
 },
 {
@@ -135412,7 +135414,8 @@ instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.66667;
 m002 = 0.33333;
 };
-name = Regular;
+isItalic = 1;
+name = Italic;
 },
 {
 customParameters = (
@@ -135435,7 +135438,8 @@ instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.5;
 m002 = 0.5;
 };
-name = Medium;
+isItalic = 1;
+name = "Medium Italic";
 weightClass = Medium;
 },
 {
@@ -135459,7 +135463,8 @@ instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.33333;
 m002 = 0.66667;
 };
-name = SemiBold;
+isItalic = 1;
+name = "SemiBold Italic";
 weightClass = SemiBold;
 },
 {
@@ -135483,7 +135488,9 @@ instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.16667;
 m002 = 0.83333;
 };
-name = Bold;
+isBold = 1;
+isItalic = 1;
+name = "Bold Italic";
 weightClass = Bold;
 },
 {
@@ -135506,9 +135513,8 @@ interpolationWeight = 170;
 instanceInterpolations = {
 m002 = 1;
 };
-isBold = 1;
-linkStyle = Light;
-name = Black;
+isItalic = 1;
+name = "Black Italic";
 weightClass = Black;
 }
 );
