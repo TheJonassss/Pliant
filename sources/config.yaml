@@ -42,6 +42,13 @@ stat:
       value: 800
     - name: Black
       value: 900
+  - name: Italic
+    tag: ital
+    values:
+    - name: Roman
+      value: 0
+      linkedValue: 1
+      flags: 2
   Pliant-Italic[wdth,wght].ttf:
   - name: Width
     tag: wdth
@@ -76,3 +83,8 @@ stat:
       value: 800
     - name: Black
       value: 900
+  - name: Italic
+    tag: ital
+    values:
+    - name: Italic
+      value: 1
