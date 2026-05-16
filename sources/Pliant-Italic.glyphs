@@ -1,5 +1,5 @@
 {
-.appVersion = "3522";
+.appVersion = "3516";
 DisplayStrings = (
 "nñ/tildecomb/tilde NÑ/brevecomb/breve/obreve/Obreve/caroncomb/caron/Ocaron/circumflexcomb/circumflex Ô/brevebelowcomb/Hbrevebelow/ringcomb/ringcomb/ringcomb/ring/Uring/ubreve/ucaron ûü/udotbelow u/uogonek",
 ABCDEFGHIJKLMNOPQRSTUVWXYZ,
@@ -50,14 +50,6 @@ Name = Width;
 Tag = wdth;
 }
 );
-},
-{
-name = variableStyleName;
-value = "Pliant-Italic[wdth,wght]";
-},
-{
-name = "Variable Font File Name";
-value = "Pliant-Italic";
 }
 );
 date = "2026-05-07 02:36:52 +0000";
@@ -159,7 +151,7 @@ alignmentZones = (
 );
 ascender = 936;
 capHeight = 714;
-custom = Thin;
+custom = "Thin Italic";
 customParameters = (
 {
 name = hheaAscender;
@@ -240,7 +232,7 @@ alignmentZones = (
 );
 ascender = 936;
 capHeight = 714;
-custom = "Thin Expanded";
+custom = "Thin Expanded Italic";
 customParameters = (
 {
 name = hheaAscender;
@@ -318,7 +310,7 @@ alignmentZones = (
 );
 ascender = 936;
 capHeight = 714;
-custom = Black;
+custom = "Black Italic";
 customParameters = (
 {
 name = hheaAscender;
@@ -399,7 +391,7 @@ alignmentZones = (
 );
 ascender = 936;
 capHeight = 714;
-custom = "Black Expanded";
+custom = "Black Expanded Italic";
 customParameters = (
 {
 name = hheaAscender;
@@ -135364,8 +135356,34 @@ interpolationWeight = 50;
 instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 1;
 };
-name = Thin;
+isItalic = 1;
+name = "Thin Italic";
 weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
+interpolationWeight = 60;
+instanceInterpolations = {
+"FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.91667;
+m002 = 0.08333;
+};
+isItalic = 1;
+name = "ExtraLight Italic";
+weightClass = ExtraLight;
 },
 {
 customParameters = (
@@ -135388,7 +135406,8 @@ instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.83333;
 m002 = 0.16667;
 };
-name = Light;
+isItalic = 1;
+name = "Light Italic";
 weightClass = Light;
 },
 {
@@ -135412,7 +135431,8 @@ instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.66667;
 m002 = 0.33333;
 };
-name = Regular;
+isItalic = 1;
+name = Italic;
 },
 {
 customParameters = (
@@ -135435,7 +135455,8 @@ instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.5;
 m002 = 0.5;
 };
-name = Medium;
+isItalic = 1;
+name = "Medium Italic";
 weightClass = Medium;
 },
 {
@@ -135459,7 +135480,8 @@ instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.33333;
 m002 = 0.66667;
 };
-name = SemiBold;
+isItalic = 1;
+name = "SemiBold Italic";
 weightClass = SemiBold;
 },
 {
@@ -135483,8 +135505,35 @@ instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.16667;
 m002 = 0.83333;
 };
-name = Bold;
+isBold = 1;
+isItalic = 1;
+name = "Bold Italic";
 weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
+interpolationWeight = 160;
+instanceInterpolations = {
+"FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.08333;
+m002 = 0.91667;
+};
+isItalic = 1;
+name = "ExtraBold Italic";
+weightClass = ExtraBold;
 },
 {
 customParameters = (
@@ -135506,9 +135555,8 @@ interpolationWeight = 170;
 instanceInterpolations = {
 m002 = 1;
 };
-isBold = 1;
-linkStyle = Light;
-name = Black;
+isItalic = 1;
+name = "Black Italic";
 weightClass = Black;
 }
 );

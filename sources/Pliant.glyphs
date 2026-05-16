@@ -1,7 +1,6 @@
 {
-.appVersion = "3522";
+.appVersion = "3516";
 DisplayStrings = (
-"nñ/tildecomb/tilde NÑ/brevecomb/breve/obreve/Obreve/caroncomb/caron/Ocaron/circumflexcomb/circumflex Ô/brevebelowcomb/Hbrevebelow/ringcomb/ringcomb/ringcomb/ring/Uring/ubreve/ucaron ûü/udotbelow u/uogonek",
 ABCDEFGHIJKLMNOPQRSTUVWXYZ,
 "/be-cy/ve-cy/ge-cy/gje-cy/geupturn-cy/gedescender-cy/gestroke-cy/gemiddlehook-cy/de-cy/iegrave-cy/io-cy/zhe-cy/ze-cy/ii-cy/iishort-cy/iigrave-cy/ka-cy/kje-cy/el-cy/em-cy/en-cy/pe-cy/te-cy/ushort-cy/ef-cy/che-cy/tse-cy/sha-cy/shcha-cy/dzhe-cy/softsign-cy/yeru-cy/hardsign-cy/lje-cy/nje-cy/e-cy/ereversed-cy/tshe-cy/yu-cy/ya-cy/dje-cy/yat-cy/fita-cy/izhitsa-cy/zhedescender-cy",
 "ae/idotless iou",
@@ -53,14 +52,6 @@ Name = Width;
 Tag = wdth;
 }
 );
-},
-{
-name = variableStyleName;
-value = "Pliant[wdth,wght]";
-},
-{
-name = "Variable Font File Name";
-value = Pliant;
 }
 );
 date = "2026-05-07 02:39:45 +0000";
@@ -135604,6 +135595,30 @@ name = "Axis Location";
 value = (
 {
 Axis = Weight;
+Location = 200;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
+interpolationWeight = 60;
+instanceInterpolations = {
+"FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.91667;
+m002 = 0.08333;
+};
+name = ExtraLight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
 Location = 300;
 },
 {
@@ -135713,8 +135728,33 @@ instanceInterpolations = {
 "FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.16667;
 m002 = 0.83333;
 };
+isBold = 1;
 name = Bold;
 weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
+interpolationWeight = 160;
+instanceInterpolations = {
+"FD4D3FDD-DE85-408F-A52A-FF600B1C6101" = 0.08333;
+m002 = 0.91667;
+};
+name = ExtraBold;
+weightClass = ExtraBold;
 },
 {
 customParameters = (
@@ -135736,8 +135776,6 @@ interpolationWeight = 170;
 instanceInterpolations = {
 m002 = 1;
 };
-isBold = 1;
-linkStyle = Light;
 name = Black;
 weightClass = Black;
 }
