@@ -23,7 +23,7 @@ The family explores spatial flexibility through proportional changes ranging fro
 
 ![Decorative Expanded Alphabet](documentation/pliant-expanded-alphabet.jpg)
 
-Pliant includes support for upright and italic styles, variable weight and width axes, and a multilingual character set containing more than 1,020 glyphs.
+Pliant includes support for upright and italic styles, variable weight and width axes, and a multilingual character set containing more than 1,200 glyphs.
 
 ## Features
 
@@ -34,7 +34,7 @@ Pliant includes support for upright and italic styles, variable weight and width
 - Latin support
 - Greek support
 - Cyrillic support
-- 1,020 glyphs
+- 1,230 glyphs
 - Standard ligatures
 - Discretionary ligatures
 - Alternate glyphs
@@ -55,10 +55,22 @@ Fonts are built automatically by GitHub Actions — take a look in the “Action
 If you want to build fonts manually on your own computer:
 
 - `make build` will produce font files.
-- `make test` will run FontBakery quality assurance tests.
+- `make test` will run Fontspector quality assurance tests.
 - `make proof` will generate HTML proof files.
 
 ## License
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.  
 This license is available with a FAQ at https://openfontlicense.org
+
+## Changelog
+
+**3 November 2026. Version 1.200**
+
+- Kerning improvements
+- Added Ƀ ƀ (B with stroke)
+- Added U+24B9 / Ⓓ
+- Complete GF_Latin_Plus
+- Complete GF_Cyrillic_Pro
+- Renamed U+A7AE glyph / Icapitalsmall
+- Accented į ɨ і ị now drop their dot under top accents
